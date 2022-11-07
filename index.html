@@ -92,6 +92,11 @@
   <div id="cookie-vue">
     <cookie-layer class="cookieLayer__base" v-show="displayCookieBox" v-on:accept="acceptCookies()"/>
   </div>
+
+  <a id='skip-nav' class='skiplinks__base screenreader-text' href='#main-content'>
+    Skip to Content
+  </a>
+
   <header class="header__base">
     <div class="header__content">
       <a class="header__logo" href="#">
@@ -119,7 +124,7 @@
     </div>
   </header>
 
-  <main class="main__base">
+  <main class="main__base" id="main-content">
     <div class="main__advertising"></div>
 
     <h1 class="main__title visually-hidden" id="page-title">The Rum Diary Homepage</h1>
