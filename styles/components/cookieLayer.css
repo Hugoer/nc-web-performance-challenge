@@ -7,7 +7,6 @@
   background-color: var(--background-color);
   padding: 20px;
   text-align: center;
-  font-family: 'Architects Daughter', serif;
   z-index: 2;
   box-shadow: 0 5px 3px -2px #e4e4e4
 }
