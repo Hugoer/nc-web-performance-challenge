@@ -18,4 +18,9 @@
 
 .footer__link {
   margin-right: 20px;
+  color: var(--text-color);
+}
+
+.footer__link:hover {
+  color: var(--text-color);
 }
