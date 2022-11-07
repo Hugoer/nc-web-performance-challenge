@@ -15,6 +15,10 @@ body {
   max-width: 1200px;
 }
 
+.main__news {
+  text-align: center;
+}
+
 .main__hero {
   height: 400px;
   display: grid;
