@@ -4,6 +4,10 @@
     padding-bottom: 30px;
   }
 
+  .main__advertising {
+    min-height: 170px;
+  }
+
   .main__news {
     height: 60px;
   }
