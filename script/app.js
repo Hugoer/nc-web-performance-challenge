@@ -58,14 +58,11 @@ const JSblocking = () => {
 }
 
 const initApp = () => {
-  const lazyLoadInstance = new LazyLoad();
-  
   layoutTrashing(20);
   dynamicContent();
   setTimeout(() => console.log('Hello World!'), 3000);
   JSblocking();
   cookieLayerInit();
-  lazyLoadInstance.update();
 };
 
 initApp();
