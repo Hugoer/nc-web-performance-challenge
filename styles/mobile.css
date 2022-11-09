@@ -22,12 +22,12 @@
     height: inherit;
   }
 
-  .main__teasers {
+  .main__video {
+    display: flex;
     flex-direction: column;
-
   }
 
-  .teaser__base {
-    width: 100%;
+  .video__base {
+    margin-bottom: 20px;
   }
 }
